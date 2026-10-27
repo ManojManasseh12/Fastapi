@@ -1,3 +1,4 @@
 .env
 __pycache__
 venv
+shrink_disk.bat

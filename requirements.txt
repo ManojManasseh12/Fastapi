@@ -6,3 +6,8 @@ google-genai
 groq
 mistralai
 python-multipart
+pymupdf
+easyocr
+
+sentence-transformers
+python-pptx
