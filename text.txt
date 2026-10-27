@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Explain what a Python list is.
 ---
 What is a Python dictionary?
@@ -17,3 +18,7 @@ What is a Python module?
 What is the difference between a list and a tuple?
 ---
 How do you handle an error in Python?
+=======
+prompt:hi what is the capital of greece ?prompt:hi what is the capital of greece ?
+prompt:hi what is the capital of greece ?
+>>>>>>> 4a480110f464f2dfc4ad365bab9edf9efc27ff4e

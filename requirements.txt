@@ -5,6 +5,7 @@ uvicorn
 google-genai
 groq
 mistralai
+<<<<<<< HEAD
 python-multipart
 pymupdf
 easyocr
@@ -14,3 +15,6 @@ python-pptx
 pypdf
 fastembed
 chromadb
+=======
+python-multipart
+>>>>>>> 4a480110f464f2dfc4ad365bab9edf9efc27ff4e

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from functools import lru_cache
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from pydantic import BaseModel
@@ -127,3 +128,22 @@ async def upload_image(file: UploadFile = File(...)):
     image_text = await run_in_threadpool(get_image_text)
     text = await run_in_threadpool(image_text.readtext, image_bytes, detail=0)
     return {"text": " ".join(text), "lines": text}
+=======
+from fastapi import APIRouter,UploadFile
+
+router = APIRouter()
+
+@router.post("/upload")
+# def upload_file(file:UploadFile):
+#     return file.filename
+
+async def upload_file(file:UploadFile):
+    load_text = await file.read()
+
+    content=[]
+
+    for text in load_text.splitlines():
+        content.append(text)
+
+    return content
+>>>>>>> 4a480110f464f2dfc4ad365bab9edf9efc27ff4e

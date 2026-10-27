@@ -1,5 +1,0 @@
-.env
-__pycache__
-venv
-shrink_disk.bat
-chroma_db/
