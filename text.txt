@@ -1,0 +1,19 @@
+Explain what a Python list is.
+---
+What is a Python dictionary?
+---
+What is a Python tuple?
+---
+What is a Python set?
+---
+What is a variable in Python?
+---
+What is a Python function?
+---
+What does a for loop do?
+---
+What is a Python module?
+---
+What is the difference between a list and a tuple?
+---
+How do you handle an error in Python?

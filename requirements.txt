@@ -1,0 +1,16 @@
+python-dotenv
+
+fastapi
+uvicorn
+google-genai
+groq
+mistralai
+python-multipart
+pymupdf
+easyocr
+
+sentence-transformers
+python-pptx
+pypdf
+fastembed
+chromadb
